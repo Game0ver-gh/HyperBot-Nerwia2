@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Backend">
+      <UniqueIdentifier>{eb2a7ed5-8867-4748-8cce-cc59f024a51d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Imgui">
+      <UniqueIdentifier>{167387aa-7ab0-4606-a0bd-cdc8fb21dbd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{2e35eaf3-5af9-470a-8438-590aa0896143}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks">
+      <UniqueIdentifier>{6205cfc2-0760-434e-85b9-86df7b538430}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hacks">
+      <UniqueIdentifier>{a791af5f-a628-4f78-885e-3a659020b97b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{b948f7b5-ef77-489f-a256-ea4eea5d07f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc\Mathing">
+      <UniqueIdentifier>{dea330de-a244-4e84-83af-6c5dd949d61d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config">
+      <UniqueIdentifier>{a7b16992-e7b2-4945-8725-b0dffe0fdd9c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend.h">
+      <Filter>Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook.h">
+      <Filter>Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_rectpack.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_textedit.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_truetype.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_dx8.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_win32.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Network.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMainInstance.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="ICheatBase.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="WaitHack.h">
+      <Filter>Hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix.h">
+      <Filter>Misc\Mathing</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix_impl.h">
+      <Filter>Misc\Mathing</Filter>
+    </ClInclude>
+    <ClInclude Include="quaternion.h">
+      <Filter>Misc\Mathing</Filter>
+    </ClInclude>
+    <ClInclude Include="scalar.h">
+      <Filter>Misc\Mathing</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>Misc\Mathing</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.h">
+      <Filter>Misc\Mathing</Filter>
+    </ClInclude>
+    <ClInclude Include="bounding_box.h">
+      <Filter>Misc\Mathing</Filter>
+    </ClInclude>
+    <ClInclude Include="color.h">
+      <Filter>Misc\Mathing</Filter>
+    </ClInclude>
+    <ClInclude Include="easing.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="GameInformer.h">
+      <Filter>Hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketSniffer.h">
+      <Filter>Hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketDefs.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CompressedFonts.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="ini.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoItemPickup.h">
+      <Filter>Hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="MiscHacks.h">
+      <Filter>Hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="RouteCreator.h">
+      <Filter>Hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleClock.h">
+      <Filter>Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigManager.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Backend</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend.cpp">
+      <Filter>Backend</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="imgui.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_demo.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_tables.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_widgets.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_dx8.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_win32.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Network.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMainInstance.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DDevice.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateGame.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderGame.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Screen.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory.cpp">
+      <Filter>Backend</Filter>
+    </ClCompile>
+    <ClCompile Include="WaitHack.cpp">
+      <Filter>Hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix.cpp">
+      <Filter>Misc\Mathing</Filter>
+    </ClCompile>
+    <ClCompile Include="quaternion.cpp">
+      <Filter>Misc\Mathing</Filter>
+    </ClCompile>
+    <ClCompile Include="vector.cpp">
+      <Filter>Misc\Mathing</Filter>
+    </ClCompile>
+    <ClCompile Include="imconfig.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="easing.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="GameInformer.cpp">
+      <Filter>Hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessTerrainCollision.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateKeyboard.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="TestActorCollision.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockMovement.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="IncreaseExternalForce.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="__SendHack.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="RecvWhisperPacket.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="SendUseSkillPacket.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="DevModeHooks.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketSniffer.cpp">
+      <Filter>Hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkStream.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="CompressedFonts.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoItemPickup.cpp">
+      <Filter>Hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="MiscHacks.cpp">
+      <Filter>Hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="RouteCreator.cpp">
+      <Filter>Hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="Skill.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="OnScriptEventStart.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigManager.cpp">
+      <Filter>Config</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="libMinHook.x86.lib">
+      <Filter>Backend</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
