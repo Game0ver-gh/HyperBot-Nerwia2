@@ -58,6 +58,7 @@ The project was developed between 2022 and 2023, it is likely not compatible wit
 1. **Environment**: Compatible with Windows 10/11 x64/x86.
 2. **Dependencies**: Requires Microsoft Visual C++ Redistributable, DirectX8/9. Additionally, [MinHook](https://github.com/TsudaKageyu/minhook) x86 static library needs to be compiled from source and placed in the project directory.
 3. **Visual Studio Project**: Compilation is only supported in x86 architecture, as required by **Metin2**.
+*Note: If you want to make that program works properly in updated client; you need to update all neccessary addresses, signatures and struct offsets.*
 
 ### Compilation Steps:
 1. Clone the repository.
@@ -66,7 +67,6 @@ The project was developed between 2022 and 2023, it is likely not compatible wit
 4. Compile the project in x86 architecture.
 
 ### Usage:
-0. Update all addresses and signatures (if you want to make that program works properly in updated client).
 1. Ensure all dependencies are installed.
 2. Launch the game client.
 3. Inject the compiled library into the game process using compiled injector or your own.
